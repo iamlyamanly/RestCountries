@@ -1,0 +1,65 @@
+:root{
+    --lightBg:#FFF;
+    --lighttextcolor:#111517;
+    --colorGray:#848484;
+    /*Dark Theme*/
+    --darkBg:#202C36;
+    --darkCardBg:#2B3844;
+
+
+}
+body.active{
+    background:var(--darkBg);
+}
+body.active .countries_header{
+    background:var(--darkCardBg);
+}
+body.active .countries_header_head_text{
+    color:var(--lightBg);
+}
+body.active  .countries_header_head_darkmode_text{
+    color: var(--lightBg)!important;
+}
+body.active .search_box{
+    background:var(--darkCardBg);
+}
+body.active .search_input::placeholder{
+    color:var(--lightBg);
+    
+}
+body.active .search_input{
+    background:var(--darkCardBg);
+}
+body.active  .selection_box{
+    background:var(--darkCardBg);
+    color:var(--lightBg);
+}
+
+body.active .backtorest{
+    background:var(--darkCardBg);
+    >span{
+        color:var(--lightBg);
+    }
+}
+body.active  .country_card {
+    background:var(--darkCardBg);
+}
+body.active  .country_card_name{
+    color: var(--lightBg) !important;
+}
+body.active .country_card_desc_item{
+    color: var(--lightBg) !important;
+   
+}
+body.active .country_details_text_span{
+    color: var(--lightBg)!important;
+}
+body.active .country_name{
+    color: var(--lightBg);
+ }
+ 
+body.active .country_details_text{
+   color: var(--lightBg);
+}
+
+
